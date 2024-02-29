@@ -1,0 +1,102 @@
+body {
+
+background-color:561C24;
+color:E8D8C4;
+font-family: 'Nunito Sans', sans-serif;
+letter-spacing: 2px;
+
+}
+h1 {
+
+	color:C7B7A3;
+	font-weight: 1800;
+}
+h2 {
+
+	color:C7B7A3;
+	font-weight: 200;
+}
+h3 {
+
+	color: C7B7A3;
+	font-weight: 200;
+}
+
+a {
+
+    text-decoration: none;
+    color: #213555;
+    font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+
+.container {
+
+	width: 800px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background-color: C7B7A3;
+	padding: 20px;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border-radius: 5px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-white {
+	background-color: #FFEEF4;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+.btn-white:hover {
+	background-color: #B9B4C7;
+
+}
+
+.list-inline {
+	text-align: center;
+}
+
+.list-inline li {
+
+	display: inline;
+	padding: 5px;
+	
+}
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+	color: #B9B4C7;
+}
+
+
+
+#introduction p {
+    margin: 50px;
+}
+
+#button {
+	margin-bottom: 50px;
+
+}
+
+#hobbies {
+	margin-bottom: 60px;
+}
